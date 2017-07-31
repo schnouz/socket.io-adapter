@@ -22,7 +22,7 @@ function Adapter(nsp){
   this.nsp = nsp;
   this.rooms = {};
   this.sids = {};
-  this.encoder = nsp.server.encoder;
+  this.encoder = nsp.adapter.encoder;
 }
 
 /**
